@@ -1,7 +1,7 @@
 class DecoyDuck extends Duck {
 
   public DecoyDuck() {
-    quackBehavior = new MuteQuack();
+    quackBehavior = new Squeak();
   }
 
   public void display() {
