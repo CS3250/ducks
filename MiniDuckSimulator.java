@@ -44,5 +44,10 @@ class MiniDuckSimulator {
     mmd.performQuack();
     mmd.swim();
 
+    System.out.println("====================");
+    Duck ad = new AustralianDuck();
+    ad.display();
+    ad.performQuack();
+    ad.swim();
   }
 }
