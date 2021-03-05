@@ -9,7 +9,7 @@ class DonaldDuck extends Duck {
      * Constructor
      */
     public DonaldDuck() {
-        Quack quackBehavior = new Quack();
+        quackBehavior = new Quack();
     }
 
     /**
