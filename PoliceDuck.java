@@ -1,11 +1,10 @@
 class PoliceDuck extends Duck {
 
-  public PoliceDuck() {
-    quackBehavior = new Quack();
+    public PoliceDuck() {
+      quackBehavior = new Quack();
+    }
+  
+    public void display () {
+      System.out.println("PoliceDuck duck displayed");
+    }
   }
-
-  public void display() {
-    System.out.println("Police duck displayed");
-  }
-
-}
