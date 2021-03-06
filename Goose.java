@@ -1,11 +1,11 @@
-class Goose extends Duck {
+class SubmarineDuck extends Duck {
 
   public Goose() {
     quackBehavior = new Honk();
   }
 
   public void display() {
-    System.out.println("Goose displayed   o<\n                  >{=}");
+    System.out.println("Sub Duck stays hidden under the waves");
   }
 
 }
