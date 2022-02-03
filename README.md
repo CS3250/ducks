@@ -1,10 +1,6 @@
 ### GitHub 2 Assignment: Extending MiniDuckSimulator
 
-For this assignment you want to create a new child duck class. This can be any
-type of duck that you like.  _It can be a real type of duck (see
-[Wikipedia](https://en.wikipedia.org/wiki/Anatidae) for a comprehensive list,
-which includes Geese and Swans), or you can make one up on your own, e.g., DecoyDuck.java,
-PirateDuck.java, etc._ 
+For this assignment you want to create a new child duck class. _This can be a real type of duck (see [Wikipedia](https://en.wikipedia.org/wiki/Anatidae) for a comprehensive list, which includes Geese and Swans), or you can make one up on your own, e.g., DecoyDuck.java, PirateDuck.java, etc._ 
 
 For this assignment, you will need to:
 
