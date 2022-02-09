@@ -7,7 +7,7 @@
 public class PirateDuck extends Duck {
 
     public PirateDuck() {
-        quackBehavior = new Quack();
+        quackBehavior = new PirateQuack();
     }
 
     public void display() {
