@@ -33,10 +33,17 @@ class MiniDuckSimulator {
     nd.swim();
 
     System.out.println("\n===================");
-    Duck nd = new RageDuck();
-    nd.display();
-    nd.performQuack();
-    nd.swim();
+    Duck rageDuck = new RageDuck();
+    rageDuck.display();
+    rageDuck.performQuack();
+    rageDuck.swim();
+    
+    System.out.println("\n===================");
+    Duck jazzDuck = new SaxophoneDuck();
+    jazzDuck.display();
+    jazzDuck.performQuack();
+    jazzDuck.swim();
+
 
   }
 }
