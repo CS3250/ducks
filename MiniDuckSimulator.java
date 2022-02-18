@@ -37,6 +37,13 @@ class MiniDuckSimulator {
     nd.display();
     nd.performQuack();
     nd.swim();
+    
+    System.out.println("\n===================");
+    Duck nd = new adhdDuck();
+    nd.display();
+    nd.performQuack();
+    nd.swim();
+
 
   }
 }
