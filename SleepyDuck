@@ -1,0 +1,10 @@
+class SleepyDuck extends Duck {
+
+    public SleepyDuck() {
+      quackBehavior = new Quack();
+    }
+  
+    public void display() {
+      System.out.println("Sleepy Duck is displayed");
+    }
+  }
