@@ -38,5 +38,11 @@ class MiniDuckSimulator {
     nd.performQuack();
     nd.swim();
 
+    System.out.println("\n===================");
+    Duck nd = new BakerDuck();
+    nd.display();
+    nd.performQuack();
+    nd.swim();
+
   }
 }
