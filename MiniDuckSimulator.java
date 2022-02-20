@@ -38,5 +38,10 @@ class MiniDuckSimulator {
     nd.performQuack();
     nd.swim();
 
+    System.out.println("\n===================");
+    Duck ad = new AstronautDuck();
+    ad.display();
+    ad.performQuack();
+    ad.swim();
   }
 }
