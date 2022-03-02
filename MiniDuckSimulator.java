@@ -27,16 +27,10 @@ class MiniDuckSimulator {
     rd.swim();
 
     System.out.println("\n===================");
-    Duck raged = new RageDuck();
-    raged.display();
-    raged.performQuack();
-    raged.swim();
+    Duck grod = new GroovyDuck();
+    grod.display();
+    grod.performQuack();
+    grod.swim();
 
-    System.out.println("\n===================");
-    Duck papad = new PapaDuck();
-    papad.display();
-    papad.performQuack();
-    papad.swim();
-    
   }
 }
