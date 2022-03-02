@@ -39,6 +39,11 @@ class MiniDuckSimulator {
     rad.swim();
 
     System.out.println("\n===================");
+    Duck rod = new RobotDuck();
+    rod.display();
+    rod.performQuack();
+    rod.swim();
+
     Duck crd = new CrystalDuck();
     crd.display();
     crd.performQuack();
@@ -49,5 +54,6 @@ class MiniDuckSimulator {
     ad.display();
     ad.performQuack();
     ad.swim();
+
   }
 }
