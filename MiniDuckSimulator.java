@@ -27,12 +27,6 @@ class MiniDuckSimulator {
     rd.swim();
 
     System.out.println("\n===================");
-    Duck nd = new NinjaDuck();
-    nd.display();
-    nd.performQuack();
-    nd.swim();
-
-    System.out.println("\n===================");
     Duck raged = new RageDuck();
     raged.display();
     raged.performQuack();
@@ -44,8 +38,5 @@ class MiniDuckSimulator {
     papad.performQuack();
     papad.swim();
     
-    System.out.println("\n===================");
-
-
   }
 }
