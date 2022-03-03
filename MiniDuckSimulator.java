@@ -25,11 +25,12 @@ class MiniDuckSimulator {
     rd.display();
     rd.performQuack();
     rd.swim();
-    
+
     System.out.println("\n===================");
-    Duck ad = new AussieDuck();
-    ad.display();
-    ad.performQuack();
-    ad.swim();
+    Duck gd = new GamerDuck();
+    gd.display();
+    gd.performQuack();
+    gd.swim();
+
   }
 }
