@@ -66,6 +66,11 @@ class MiniDuckSimulator {
     nd.performQuack();
     nd.swim();
 
+    System.out.println("\n===================");
+    Duck mg = new MageDuck();
+    nd.display();
+    nd.performQuack();
+    nd.swim();
   }
 
 }
