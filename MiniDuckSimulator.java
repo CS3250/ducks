@@ -27,16 +27,10 @@ class MiniDuckSimulator {
     rd.swim();
 
     System.out.println("\n===================");
-    Duck nd = new NinjaDuck();
-    nd.display();
-    nd.performQuack();
-    nd.swim();
-
-    System.out.println("\n===================");
-    Duck nd = new RageDuck();
-    nd.display();
-    nd.performQuack();
-    nd.swim();
+    Duck nj = new NinjaDuck();
+    nj.display();
+    nj.performQuack();
+    nj.swim();
     
     System.out.println("\n===================");
     Duck td = new TerminatorDuck();
