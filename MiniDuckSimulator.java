@@ -20,5 +20,29 @@ class MiniDuckSimulator {
     cd.performQuack();
     cd.swim();
 
+    System.out.println("\n===================");
+    Duck rd = new RubberDuck();
+    rd.display();
+    rd.performQuack();
+    rd.swim();
+
+    System.out.println("\n===================");
+    Duck nd = new NinjaDuck();
+    nd.display();
+    nd.performQuack();
+    nd.swim();
+
+    System.out.println("\n===================");
+    Duck nd = new RageDuck();
+    nd.display();
+    nd.performQuack();
+    nd.swim();
+
+    System.out.println("\n===================");
+    Duck nd = new BakerDuck();
+    nd.display();
+    nd.performQuack();
+    nd.swim();
+
   }
 }
