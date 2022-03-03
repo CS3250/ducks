@@ -33,6 +33,11 @@ class MiniDuckSimulator {
     nd.swim();
 
     System.out.println("\n===================");
+    Duck dwd = new DarkwingDuck();
+    dwd.display();
+    dwd.performQuack();
+    dwd.swim();
+
     Duck raged = new RageDuck();
     raged.display();
     raged.performQuack();
