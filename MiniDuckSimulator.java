@@ -37,40 +37,6 @@ class MiniDuckSimulator {
     rad.display();
     rad.performQuack();
     rad.swim();
-    
-     System.out.println("\n===================");
-    Duck sld = new SleepyDuck();
-    sld.display();
-    sld.performQuack();
-    sld.swim();
 
-    Duck dwd = new DarkwingDuck();
-    dwd.display();
-    dwd.performQuack();
-    dwd.swim();
-
-    Duck raged = new RageDuck();
-    raged.display();
-    raged.performQuack();
-    raged.swim();
-
-    System.out.println("\n===================");
-    Duck fd = new FootballDuck();
-    fd.display();
-    fd.performQuack();
-    fd.swim();
-
-    System.out.println("\n===================");
-    Duck nd = new BakerDuck();
-    nd.display();
-    nd.performQuack();
-    nd.swim();
-
-    System.out.println("\n===================");
-    Duck mg = new MageDuck();
-    nd.display();
-    nd.performQuack();
-    nd.swim();
   }
-
 }
