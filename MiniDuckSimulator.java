@@ -31,12 +31,12 @@ class MiniDuckSimulator {
     nj.display();
     nj.performQuack();
     nj.swim();
-
+    
     System.out.println("\n===================");
-    Duck rad = new RageDuck();
-    rad.display();
-    rad.performQuack();
-    rad.swim();
+    Duck td = new TerminatorDuck();
+    td.display();
+    td.performQuack();
+    td.swim();
 
   }
 }
