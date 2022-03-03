@@ -20,17 +20,5 @@ class MiniDuckSimulator {
     cd.performQuack();
     cd.swim();
 
-    System.out.println("\n===================");
-    Duck rd = new RubberDuck();
-    rd.display();
-    rd.performQuack();
-    rd.swim();
-
-    System.out.println("\n===================");
-    Duck gd = new GamerDuck();
-    gd.display();
-    gd.performQuack();
-    gd.swim();
-
   }
 }
