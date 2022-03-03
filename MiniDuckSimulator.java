@@ -25,12 +25,12 @@ class MiniDuckSimulator {
     rd.display();
     rd.performQuack();
     rd.swim();
-
+    
     System.out.println("\n===================");
-    Duck grod = new GroovyDuck();
-    grod.display();
-    grod.performQuack();
-    grod.swim();
+    Duck nd = new adhdDuck();
+    nd.display();
+    nd.performQuack();
+    nd.swim();
 
   }
 }
