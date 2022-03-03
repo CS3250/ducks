@@ -1,0 +1,11 @@
+class FitDuck extends Duck
+{
+    public 
+        QuackBehavior = new Squeak();
+
+    }
+    public void display()
+    {
+        System.out.println("Fit Duck displayed.")
+    }
+}
